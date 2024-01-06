@@ -48,9 +48,10 @@ li {
 }
 
 li:hover {
-    color: blueviolet;
+    color: purple;
     transition: 0.5s;
 }
+
 
 .link {
     text-decoration: none;
