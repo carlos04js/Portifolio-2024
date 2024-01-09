@@ -39,6 +39,7 @@ nav {
     list-style: none;
     font-size: 20px;
 
+
 }
 
 li {
@@ -46,8 +47,7 @@ li {
     margin-right: 20px;
     cursor: pointer;
 }
-
-li:hover {
+ li:hover {
     color: purple;
     transition: 0.5s;
 }
@@ -56,6 +56,11 @@ li:hover {
 .link {
     text-decoration: none;
     color: white;
+}
+
+.link:hover{
+    color:blueviolet;
+    transition: 0.5s;
 }
 
 .titulo {
@@ -80,17 +85,20 @@ h1 span {
 section {
     display: flex;
     align-items: center;
-    padding: 20px 15%;
+    padding: 30px 30%;
     background-color: black;
     font-size: large;
 }
 
 .sobre {
     color: white;
+    font-size: 40px;
+    padding-bottom: 50px;
 }
 
 .sobre span {
     color: purple;
+
 }
 
 .descricao {
@@ -146,7 +154,7 @@ button:hover {
     width: 365px;
     border-radius: 25px;
     padding: 20px 35px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     text-align: center;
     font-size: 15px;
 
@@ -190,6 +198,43 @@ button:hover {
 
 }
 
+.certificados {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+
+.certificados h5 {
+    color: white;
+    font-size: 50px;
+    padding-right: 20px
+}
+
+.botoes{
+    align-items: center;
+
+}
+
+
+
+
+.certificados a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
 footer {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -221,6 +266,7 @@ footer p {
 .hide {
     background-color: #191919;
     color: #191919;
+    padding-top: 20px;
 }
 
 
